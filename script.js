@@ -25,7 +25,7 @@ const showWinner = (userWin,userChoice,computerChoice) =>{
     {
         userScore++;
         userScorePara.innerText = userScore;
-        if(userScore === 10)
+        if(userScore.innerText === 10)
         {
         msg.innerText = "Hurrah You Won!"
             computerScore = 0;
@@ -40,7 +40,7 @@ const showWinner = (userWin,userChoice,computerChoice) =>{
     else{
         computerScore++;
         compScorePara.innerText = computerScore;
-        if(computerScore === 10)
+        if(computerScore.innerText === 10)
         {
             msg.innerText = "Oops you lost!"
             computerScore = 0;
